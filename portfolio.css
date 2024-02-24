@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #141414;
     color: white;
@@ -75,7 +79,7 @@ a:hover {
 }
 
 .about {
-    padding-top: 80px;
+    padding-top: 60px;
     top: 0;
     left: 0;
     width: 100%;
@@ -111,7 +115,7 @@ a:hover {
             width: 100%;
             text-align: center;
 
-            
+
         }
     }
 }

@@ -84,6 +84,7 @@ a:hover {
     .about-heading {
         text-align: center;
         font-size: 50px;
+        margin-bottom: 6rem;
     }
 
     .about-content {
@@ -94,12 +95,23 @@ a:hover {
             text-align: center;
             width: 100%;
 
+            .profile-picture {
+                display: flex;
+                justify-content: center;
+                height: 12rem;
+                margin-bottom: 2rem;
+            }         
             
+            .profile-blurb {
+                line-height: 1.8;
+            }
         }
 
         .skills {
             width: 100%;
             text-align: center;
+
+            
         }
     }
 }

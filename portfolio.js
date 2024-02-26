@@ -10,9 +10,3 @@ const onScroll = () => {
         header.classList.remove("sticky");
     }
 };
-
-document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('view-work-btn').addEventListener('click', () => {
-        document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
-    });
-});
